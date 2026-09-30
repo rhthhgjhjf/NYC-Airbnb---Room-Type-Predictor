@@ -18,7 +18,7 @@ function safeSet(key, value) {
 /* =========================================================
    Config and data
    ========================================================= */
-const DEFAULT_API = "http://127.0.0.1:8000";
+const DEFAULT_API = "https://nyc-airbnb-room-type-predictor-e55d.onrender.com";
 let apiBase = safeGet("roomTypeApiBase") || DEFAULT_API;
 
 // Order matches model.classes_ (alphabetical), which is the order of predict_proba.
